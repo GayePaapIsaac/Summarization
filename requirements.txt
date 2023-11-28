@@ -1,5 +1,6 @@
 streamlit
 langdetect==1.0.9
+langid
 sumy
 nltk
 spacy
