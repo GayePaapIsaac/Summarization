@@ -2,20 +2,25 @@ import streamlit as st
 
 def config():
     
-        original_title = '<h1 style="font-family: serif; color:white; font-size: 20px;"></h1>'
-        st.markdown(original_title, unsafe_allow_html=True)
+                # Définir la taille de la police souhaitée
+        font_size = "30px"
 
+        # Définir la police de caractères souhaitée
+        font_family = "Times New Roman, serif"
+
+
+       
 
         # Set the background image
         background_image = """
         <style>
         [data-testid="stAppViewContainer"] > .main {
-            background-image: url("https://storage.letudiant.fr/mediatheque/letudiant/1/0/2522310-adobestock-322914233-766x438.jpeg");
+            background-image: url("https://img.freepik.com/free-photo/3d-rendering-pen-ai-generated_23-2150695471.jpg?t=st=1701176210~exp=1701179810~hmac=8994a86a50586b13e3787ced911a2e5386b5a126f47fbf2a8e5bcdaea90ade7a&w=740");
             background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
             background-position: center;  
             background-repeat: no-repeat;
         }
         </style>
         """
-
+        
         st.markdown(background_image, unsafe_allow_html=True)

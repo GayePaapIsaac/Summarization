@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+langdetect
+sumy
+nltk
+spacy
+keras
+tensorflow
+requests
+re
