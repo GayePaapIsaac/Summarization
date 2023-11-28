@@ -4,7 +4,7 @@ import re
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
-nlp = spacy.load('fr_core_news_sm')
+
 
 
 def cleaning(article_text):
